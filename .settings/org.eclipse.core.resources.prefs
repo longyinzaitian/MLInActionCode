@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//BPNet/BPNet.py=utf-8
+encoding//BPNet/BoltzmannNet.py=UTF-8
+encoding//BPNet/Kohoen.py=utf-8
+encoding//BPNet/jobboleTest.py=UTF-8
+encoding//JQXITest/test1.py=utf-8
+encoding//LogisticRegression/dataExtract.py=utf-8
+encoding//LogisticRegression/logRegression.py=utf-8
+encoding//LogisticRegression/testFunction.py=utf-8
+encoding//LogisticRegression/test_logRegression.py=utf-8
+encoding//Prediction/LeastSquares.py=UTF-8
+encoding//Prediction/RBFnetwork.py=utf-8
+encoding//Prediction/RBFprediction.py=UTF-8
+encoding/JQXITest=UTF-8
+encoding/LogisticRegression=UTF-8
