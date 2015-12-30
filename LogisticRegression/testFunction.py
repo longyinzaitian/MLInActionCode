@@ -430,17 +430,22 @@ if __name__ == '__main__':
     '''
     print 3*2**2
     print 3*2**0.5
+    print (3*2)**2
+    print (3*2)**0.5
     '''
     '''
     ll=[3,4,6,2,89,9,3,2]
     print max(ll)
+    l2=[[3,4,6,2,89,9,3,2],[3,6,7,8,983,3,5,6]]
+    print max(l2[0])
+    print max(l2)
     '''
     
     '''
     #开始值，结束值，步长。如果步长为虚数，表示产生的个数长度
     print mgrid[-5:5:3j] #结果：[-5.  0.  5.]
     print mgrid[-5:5:3] #结果：[-5 -2  1  4]
-    
+    print '*'*20
     print mgrid[-5:5:3j,-5:5:3j]
     '''
     '''
@@ -611,6 +616,7 @@ if __name__ == '__main__':
 # 博客地址：http://blog.csdn.net/pipisorry/article/details/39088003
     
 ###########################################################################
+    '''
     #混淆位置。如果是多维数组，则混淆一维的。例如下面的arr.
     print random.permutation(10)
     print random.permutation([1, 4, 9, 12, 15])
@@ -625,3 +631,18 @@ if __name__ == '__main__':
     #第二个参数可选，无代表求模2范数。
     #from scipy.linalg.misc import norm
     print norm([8,6,10])
+    '''
+    
+    ll=[[1,2,3,4,5,6],[3,4,5,6,7,8]]
+    print var(ll[0])
+    print var(ll,0)#第二个参数为0，表示按列求方差
+    print var(ll,1)#第二个参数为1，表示按行求方差
+    
+    print mean(ll) #全部元素求均值
+    print mean(ll,0)#按列求均值
+    print mean(ll,1)#按行求均值
+    
+    
+    
+    
+    
